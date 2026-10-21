@@ -5,7 +5,9 @@ This repository contains a real-time Python-based data acquisition (DAQ) and mon
 ## ⚙️ Hardware Architecture
 
 <!-- INSERT HARDWARE IMAGE HERE: Make sure 'image_6c8d65.png' is uploaded to your repository -->
-![Hardware Connections](hardware_connection.png)
+<p align="center">
+  <img src="hardware_connection.png" alt="Hardware Connections" width="600">
+</p>
 
 The physical hardware pipeline safely isolates and acquires raw current data from the CNC machine:
 * **Sensor:** A Clamp Type AC Current Sensor attached directly to the U-Phase line supplying current to the CNC Machine's Spindle Motor.
@@ -15,7 +17,9 @@ The physical hardware pipeline safely isolates and acquires raw current data fro
 ## 💻 Software Features & GUI
 
 <!-- INSERT GUI IMAGE HERE: Make sure 'Screenshot 2026-10-21 164003.png' is uploaded to your repository -->
-![GUI Screenshot](GUI.png)
+<p align="center">
+  <img src="GUI.png" alt="GUI Screenshot" width="600">
+</p>
 
 The custom application provides a robust, thread-safe interface designed to run reliably during long machining operations without locking up the system kernel:
 * **Real-Time Visualization:** Matplotlib integration displays live, continuous current waveforms with a rolling 20,000-sample viewing window.
@@ -26,7 +30,9 @@ The custom application provides a robust, thread-safe interface designed to run 
 ## 📊 Calibration & Accuracy Validation
 
 <!-- INSERT REGRESSION GRAPH IMAGE HERE: Make sure 'finalcalibrationoutput (1).png' is uploaded to your repository -->
-![CNC Sensor Calibration](accuracy.png)
+<p align="center">
+  <img src="accuracy.png" alt="CNC Sensor Calibration" width="550">
+</p>
 
 To validate the accuracy of the software's signal processing algorithm against physical ground-truth instruments, a linear regression test was performed.
 * **Methodology:** The DAQ RMS outputs were mapped against physical Ammeter readings across various spindle speeds (from 1000 RPM up to 4000 RPM).
