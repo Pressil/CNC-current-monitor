@@ -54,6 +54,9 @@ The internal algorithm converts raw AC voltage to Primary Current using the foll
 * `matplotlib` (Live data plotting)
 * `numpy` (Fast array operations and RMS calculations)
 
+## 🎥 System Demo
+* **Watch the Live Demonstration:** [Click here to view the CNC Spindle Current Monitor in action](https://drive.google.com/file/d/1XySryO0zdJyxzeC9ZbCHww7KenkJWvqe/view?usp=sharing)
+  
 ## 👤 Author
 **Princess April E. Castillo**  
 *4th-Year B.S. Computer Applications, Mindanao State University - Iligan Institute of Technology*
